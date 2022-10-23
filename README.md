@@ -1,25 +1,6 @@
-[![GitHub issues](https://img.shields.io/github/issues/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch)](https://github.com/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch/issues) [![GitHub stars](https://img.shields.io/github/stars/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch)](https://github.com/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch/stargazers) [![GitHub license](https://img.shields.io/github/license/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch)](https://github.com/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch) [![GitHub forks](https://img.shields.io/github/forks/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch)](https://github.com/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch/network) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/torch) [![YouTube Video Views](https://img.shields.io/youtube/views/AU4KlXKKnac?style=social)](https://youtu.be/AU4KlXKKnac) ![GitHub watchers](https://img.shields.io/github/watchers/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch?style=social)
+
 # Liver Segmentation Using Monai and PyTorch
-You'll find all the Python files you need to accomplish liver segmentation with Monai and PyTorch in this repo, and you can use the same code to segment other organs as well.
 
-![Output image](https://github.com/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch/blob/main/images/liver_segmentation.PNG)
-
-So do this project, you will find some scripts that I wrote by myself and others that I took from Monai's tutorials. For this reason you need to take a look to their original repo and [website](https://monai.io/) to get more information.
-
-## Cloning the repo
-You can start by cloning this repo in your wordspace and then start playing with the function to make your project done.
-```
-git clone https://github.com/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch
-```
-```
-cd ./Liver-Segmentation-Using-Monai-and-PyTorch
-```
-## Packages that need to be installed:
-```
-pip install monai
-```
-```
-pip install -r requirements.txt
 ```
 ## Showing a patient from the dataset
 Some of the most common queries I had while utilizing medical imaging were regarding how to present a patient. To address this, I created explicit scripts for how to show a patient from the training and testing datasets, which you can see here.
@@ -93,19 +74,5 @@ To test the model, there is the jupyter notebook `testing.ipynb` file that conta
 ![Output image](https://github.com/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch/blob/main/images/graphs.PNG)
 
 ----------------------------------------------------------------------------------------------------------------------------------
-Before using the code, I recommend that you watch my course, in which I explain everything in this repo, or at the very least read my blog entries, in which I explain how to use the various scripts so that you don't get confused.
 
-You can read about the tutorial in my blog post series starting by [this one.](https://pycad.co/liver-segmentation-part-1/)
-
-## Conversion tools
-
-For the different preparations that I talked about in the course/blogs I have create a simple GUI that help you to do the conversion in a few clicks, please see more information at [this link](https://pycad.co/pycad-convert/).
-
-![154864750-c55a3129-67c7-438a-8549-e2c45c433048](https://user-images.githubusercontent.com/37108394/156251291-a0911b63-41b6-4c8a-820b-a9bfec5e452b.png)
-
-## 🆕 NEW (coming soon) 
-
-Full course about medical imaging segmentation is coming soon, join the waitlist here:
-
-https://pycad.co/monai-and-pytoch-for-medical-imaging/
 
